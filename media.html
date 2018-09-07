@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="" content="">
+      <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+      <meta name="mobile-web-app-capable" content="yes">
+      <title>Meaww Task - Ashok G</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" property="stylesheet">
+      <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="media.css">
+   </head>
+   <body>
+      <div id="container">
+         <h1>VideoRecord Portal <i class="fa fa-play-circle"></i></h1>
+         <video id="mirror" playsinline autoplay muted></video>
+         <video id="recorded" playsinline></video>
+         <div>
+            <button type="button" id="record" class="btn startRecord" disabled>Start Recording</button>
+            <button type="button" id="play" class="btn btn-play" disabled>Review</button>
+         </div>
+         <h3 class="modContent"></h3> 
+         <div>
+            <span id="errorMsg"></span>
+         </div>
+      </div>
+      <script src="media.js" async></script>
+   </body>
+</html>

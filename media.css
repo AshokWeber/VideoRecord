@@ -1,0 +1,78 @@
+body{
+  font-family: Open Sans;
+  background: rgb(0,5,36);
+  background: linear-gradient(90deg, rgba(0,5,36,0.3533788515406162) 0%, rgba(9,9,121,0.3337710084033614) 31%, rgba(0,22,255,0.2805497198879552) 100%);
+}
+
+h1{
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+button {
+  margin: 0 3px 10px 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.btn.focus, .btn:focus, .btn:hover{
+  color: #fff;
+}
+
+button:last-of-type {
+  margin: 0;
+}
+
+.btn-play  {
+  color: #fff;
+  background-color: #2f0fef;
+  border-color: #2f0fef;
+  width:120px;
+}
+
+#container{
+  text-align: center;
+  top: 10vh;
+  position: relative;
+}
+
+#container div{
+  padding-top: 2em;
+}
+
+p.borderBelow {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+video {
+  vertical-align: top;
+  --width: 25vw;
+  width: var(--width);
+  height: calc(var(--width) * 0.5625);
+  background-color: #000;
+  margin:0 2%;
+}
+
+video:last-of-type {
+  margin: 0 0 20px 0;
+  display: none;
+}
+
+video#gumVideo {
+  margin: 0 20px 20px 0;
+}
+
+.startRecord{
+  background-color: #449d44;
+  color: #fff;
+}
+
+.stopRecord{
+  background-color: red;
+  color: #fff;
+}
+
+.playContent{
+  display: none;
+}
